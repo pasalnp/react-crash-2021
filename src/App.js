@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 import About from './components/About'
+import { FaCaretDown } from 'react-icons/fa'
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)
@@ -119,5 +120,20 @@ const App = () => {
     </Router>
   )
 }
+export const App2 = () => {
+
+  return (
+    <>
+    <FaCaretDown />
+    
+    
+    
+    </>
+  )  
+  }
+
+
+
+
 
 export default App
